@@ -4,3 +4,6 @@ venv/
 #Python temporal files
 __pycache__/
 *.pyc
+
+#environment variables
+.env
