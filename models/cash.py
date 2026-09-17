@@ -1,4 +1,4 @@
-Python
+
 import sys
 import os
 

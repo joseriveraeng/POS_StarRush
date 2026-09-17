@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS sales (
     total DECIMAL(10,2),
     payment_method VARCHAR(200),
     payment_status VARCHAR(200),
-    created_at DATETIME
+    created_at DATETIME DEFAULT Current_TimeStamp
 );
 
 CREATE TABLE IF NOT EXISTS sale_details(
