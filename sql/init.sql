@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS products (
     name VARCHAR(255) NOT NULL,
     cost_price DECIMAL(10, 2) NOT NULL,
     sale_price DECIMAL(10, 2) NOT NULL,
-    current_stock DECIMAL(10, 2)
+    current_stock DECIMAL(10, 2),
+    is_active BOOLEAN NOT NULL DEFAULT TRUE
 );
 
 CREATE TABLE IF NOT EXISTS customers (
